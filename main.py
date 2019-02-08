@@ -4,8 +4,14 @@ from draw import *
 screen = new_screen()
 color = [ 0, 255, 0 ]
 
-draw_line(0, 0, 250, 100, screen, color)
-draw_line(0, 0, 10, 300, screen, color)
+#octant 1
+draw_line(250, 250, 500, 350, screen, color)
+#octant 2
+draw_line(250, 250, 350, 500, screen, color)
+#slope = 0
+draw_line(250, 250, 250, 250, screen, color)
+#slope = 1
+draw_line(250, 250, 500, 500, screen, color)
 
 #for i in range(200) :
 #    plot(screen, color, i, i)

@@ -22,8 +22,16 @@ draw_line(250, 250, 300, 100, screen, color)
 draw_line(250, 250, 400, 200, screen, color)
 #slope = 0
 draw_line(250, 250, 500, 250, screen, color)
-#slope = 1
+draw_line(250, 250, 0, 250, screen, color)
+#slope = undefined
 draw_line(250, 250, 250, 500, screen, color)
+draw_line(250, 250, 250, 0, screen, color)
+#slope = 1
+draw_line(250, 250, 500, 500, screen, color)
+draw_line(250, 250, 0, 0, screen, color)
+#slope = -1
+draw_line(250, 250, 0, 500, screen, color)
+draw_line(250, 250, 500, 0, screen, color)
 
 #for i in range(200) :
 #    plot(screen, color, i, i)
